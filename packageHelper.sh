@@ -1,8 +1,9 @@
 #!/bin/zsh
-# Usage: ./fetch_workbrew_pkg_info.sh [url] [outputDir]
+# Usage: ./packageHelper.sh [url] [outputDir]
 
-# Pass a URL that serves a .pkg and extract the info needed for Apple Business (Manager) directly from the package itself, saving the details to text clippings
+# Pass a URL that serves a .pkg and extract the info needed for Apple Business (Essentials) directly from the package itself, saving the details to text clippings
 # SHA-256, bundleID, app version, app icon, Team ID, and full download URL
+# Originally created for customers of Workbrew, which is set as the default URL as an example
 
 set -euo pipefail
 
