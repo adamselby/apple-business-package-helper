@@ -9,7 +9,7 @@ This URL can be a stable URL that is always the latest version, a version-specif
 ## Usage
 
 ```sh
-zsh fetch_workbrew_pkg_info.sh [url] [outputDir]
+zsh packageHelper.sh [url] [outputDir]
 ```
 
 - `url` — package URL to fetch. Defaults to the a variable you define.
